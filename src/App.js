@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Webcam from "react-webcam";
+
+const WebcamComponent = () => <Webcam />;
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        {WebcamComponent()}
       </header>
     </div>
   );
